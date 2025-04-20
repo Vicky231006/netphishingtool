@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large model files
+models/phishing_classifier.joblib
+models/tfidf_vectorizer.joblib
+models/feature_names.joblib
+
+# Dataset files
+dataset/
+dataset.zip
+dataset/phishing_email.csv
+dataset/CEAS_08.csv
+
+# Miniconda
+Miniconda3-latest-Linux-x86_64.sh
+Miniconda3-latest-Linux-x86_64.sh.1
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db 

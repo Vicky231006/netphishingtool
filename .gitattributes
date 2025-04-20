@@ -1,0 +1,4 @@
+models/*.joblib filter=lfs diff=lfs merge=lfs -text
+dataset.zip filter=lfs diff=lfs merge=lfs -text
+dataset/*.csv filter=lfs diff=lfs merge=lfs -text
+Miniconda3-latest-Linux-x86_64.sh* filter=lfs diff=lfs merge=lfs -text
